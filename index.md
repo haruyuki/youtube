@@ -1,7 +1,9 @@
 ---
 layout: home
+pagination:
+  enabled: true
 ---
-# Twitch VOD Archive
+<h1>Twitch VOD Archive</h1>
 
-Watch me live on [Twitch](https://twitch.tv/blumewmew)!
+<p>Watch me live on <a href="https://twitch.tv/blumewmew">Twitch</a>!</p>
 

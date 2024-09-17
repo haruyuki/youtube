@@ -8,7 +8,7 @@ layout: base
 </div>
 
 <div class="md:w-4/5 mx-auto gap-4 md:gap-6 columns-2 md:columns-3 mb-10">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <div class="md:fadeIn pb-8 mb-8 break-inside-avoid-column ">
     <div
       class="hover:underline hover:decoration-2 hover:underline-offset-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-104 duration-300">
@@ -25,4 +25,17 @@ layout: base
     </div>
   </div>
   {% endfor %}
+</div>
+<div class="flex justify-center py-8 ">
+{% if paginator.total_pages > 1 %}
+<p>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% endif %}
+  {% if paginator.previous_page and paginator.next_page %} | {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% endif %}
+</p>
+{% endif %}
 </div>
