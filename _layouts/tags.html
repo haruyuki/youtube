@@ -6,15 +6,19 @@ layout: base
   <div class="break-inside-avoid-column">
     <h1 class="text-xl xl:text-3xl py-4">Tags</h1>
     <ul class="list-disc list-inside tag-list">
+      {% capture tags %}
       {% for tag in site.tags %}
-      <li class="text-lg py-1"><a href="#{{ tag[0] }}" class="underline md:no-underline hover:underline">#{{ tag[0] }}</a></li>
+      <li data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}" class="text-lg py-1"><a href="#{{ tag[0] }}" class="underline md:no-underline hover:underline">#{{ tag[0] }} | {{ tag[1].size }}</a></li>
       {% endfor %}
+      {% endcapture %}
+      {{ tags | split:'</li>' | sort | join:'</li>' }}
     </ul>
   </div>
 
   <div class="break-inside-avoid-column">
     <h2 class="text-xl xl:text-2xl py-4">Posts by Tag</h2>
-    {% for tag in site.tags %}
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
     <h3 id="{{ tag[0] }}" class="text-lg md:text-xl py-3 md:pb-4 md:pt-6"># {{ tag[0] }}</h3>
     <ul class="list-disc list-inside ">
       {% for post in tag[1] %}
