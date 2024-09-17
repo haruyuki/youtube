@@ -1,19 +1,25 @@
 photos:
-  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget risus nisi.
-    url: https://picsum.photos/200/300
-    quote: This is a quote
-  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget risus nisi.
-    url: https://picsum.photos/800/800
-    quote: This is a quote 🐬
-  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget risus nisi.
-    url: https://picsum.photos/1200/720
-    quote: This is a quote 🐬
-  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget risus nisi.
-    url: https://picsum.photos/600/600
-    quote: This is a quote 🐬
-  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget risus nisi.
-    url: https://picsum.photos/400/600
-    quote: This is a quote 🐬
-  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget risus nisi.
-    url: https://picsum.photos/300/200
-    quote: This is a quote 🐬
+  - description: ニア (Near) feat. PEACE
+    url: https://i3.ytimg.com/vi/d2D7aT-yzmo/maxresdefault.jpg
+    quote: ニア
+  - description: WAVEFILE 秋桜レオ ver.
+    url: https://i3.ytimg.com/vi/ti5TO4nGJYY/maxresdefault.jpg
+    quote: WAVEFILE
+  - description: セカイはまだ始まってすらいない feat. Chocopu, Yaojiu, Sorairo, Cake
+    url: https://i3.ytimg.com/vi/TnTQzf1IkQY/maxresdefault.jpg
+    quote: セカイはまだ始まってすらいない
+  - description: 45秒 feat. CHQT
+    url: https://i3.ytimg.com/vi/T1NEb6jZ73E/maxresdefault.jpg
+    quote: 45秒
+  - description: INTERGALACTIA
+    url: https://i3.ytimg.com/vi/LziAu81DAzI/maxresdefault.jpg
+    quote: INTERGALACTIA
+  - description: INTERGALACTIA Chocopu ver.
+    url: https://i3.ytimg.com/vi/sPRfQ9vHXM4/maxresdefault.jpg
+    quote: INTERGALACTIA
+  - description: セカイはまだ始まってすらいない feat. Chocopu
+    url: https://i3.ytimg.com/vi/ALsvB5QYIPI/maxresdefault.jpg
+    quote: セカイはまだ始まってすらいない
+  - description: パラレリズム恋心/Parallelism Love Chocopu ver. No Glasses
+    url: https://i3.ytimg.com/vi/RysIVfjJL0g/maxresdefault.jpg
+    quote: パラレリズム恋心/Parallelism Love
