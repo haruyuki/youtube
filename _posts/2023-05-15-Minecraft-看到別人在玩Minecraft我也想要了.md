@@ -7,5 +7,4 @@ tags:
   - Minecraft
 ---
 
-<iframe src="https://www.youtube.com/embed/nWPvyJD8wv0?si=yPNa4DDWiC8hP39K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+{% youtube nWPvyJD8wv0 %}
