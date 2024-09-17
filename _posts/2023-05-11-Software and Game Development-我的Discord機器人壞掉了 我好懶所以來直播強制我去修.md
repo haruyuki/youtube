@@ -7,5 +7,4 @@ tags:
   - Software and Game Development
 ---
 
-<iframe src="https://www.youtube.com/embed/BLLR1CFHZIg?si=NWgIHz-W2R4x-aKL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+{% youtube BLLR1CFHZIg %}
