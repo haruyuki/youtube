@@ -2,19 +2,14 @@
 title: about
 layout: page
 ---
-## Modo nostra
+## Hi! I'm Haruyuki!
 
-Lorem markdownum mihi; hic sonantem tenebat telum successu mollierant inani
-avoque. Harena et laedor bisque moenia veniat facit lebetes tum non?
+Or you can call Haru or blumewmew or whichever online name you know me by, nice to meet you!
 
-> Iunctissima lapsus illis; venit protervis exequialia absit tristia et
-> **locum** cum ut ad convertor tamen. Ad mea cui! Pedibus sit inque quaerit [ac
-> eadem](http://clamavit.io/), quid, aurum quam videt ille. Aiax harenam, et
-> salices equos, captis, Iovis.
+I'm a furry and my character is a small blue Akita Inu. I love to play games, and casually stream as a VTuber on [Twitch](https://www.twitch.tv/blumewmew), feel free to come by if you see me streaming! I mostly speak Chinese in my streams, however I can also speak English and Japanese.
 
-## Cumque ardor
+Hope you have a good time! :3
 
-Suspiria seque sui quot, stare non profuso adsensere ignibus. Nata nomen rude
-veniam. Colore alta avido, relicta obnoxia vivosque Ereboque animosque meae,
-festas, Cythereia tu stare scitusque. Indefessus urbes eodem tuo liceat dives
-Telamonius nobis aetheriae, illam, in heu idemque **an**.
+![Haruyuki](assets/images/haru.jpg)
+
+<script type="text/javascript" src="https://www.juicer.io/embed/blumewmew/embed-code.js?per=4&pages=2&columns=2&overlay=false" async defer></script>
