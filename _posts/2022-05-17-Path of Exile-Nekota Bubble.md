@@ -7,4 +7,4 @@ tags:
   - Path of Exile
 ---
 
-{% youtube -lpRVUhcgGs %}
+{% youtube page.link %}

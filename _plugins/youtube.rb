@@ -1,17 +1,21 @@
 class YouTube < Liquid::Tag
-  Syntax = /^\s*([^\s]+)(\s+(\d+)\s+(\d+)\s*)?/
+  Shorthand = /youtu\.be\/([^\?]*)/
+  Syntax = /^.*((v\/)|(embed\/)|(watch\?))\??v?=?([^\&\?]*).*/
 
-  def initialize(tagName, markup, tokens)
+  def initialize(tagName, content, tokens)
     super
-
-    if markup =~ Syntax then
-      @id = $1
-    else
-      raise "No YouTube ID provided in the \"youtube\" tag"
-    end
+    @content = content
   end
 
   def render(context)
+    link = "#{context[@content.strip]}"
+    if link =~ Shorthand
+      @id = $1
+    else
+      link =~ Syntax
+      @id = $5
+    end
+
     "<iframe title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen
         src=\"https://www.youtube.com/embed/#{@id}\"> </iframe>"
   end

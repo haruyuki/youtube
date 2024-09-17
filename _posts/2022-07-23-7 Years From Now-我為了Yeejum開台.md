@@ -7,4 +7,4 @@ tags:
   - 7 Years From Now
 ---
 
-{% youtube MK7RWG5dvRI %}
+{% youtube page.link %}

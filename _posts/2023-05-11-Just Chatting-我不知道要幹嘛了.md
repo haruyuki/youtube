@@ -7,4 +7,4 @@ tags:
   - Just Chatting
 ---
 
-{% youtube OhPIrhl7GRs %}
+{% youtube page.link %}

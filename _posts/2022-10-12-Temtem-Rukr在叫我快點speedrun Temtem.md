@@ -7,4 +7,4 @@ tags:
   - Temtem
 ---
 
-{% youtube K-ktCKLeKMk %}
+{% youtube page.link %}

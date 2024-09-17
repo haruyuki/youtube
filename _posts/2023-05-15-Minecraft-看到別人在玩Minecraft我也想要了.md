@@ -7,4 +7,4 @@ tags:
   - Minecraft
 ---
 
-{% youtube nWPvyJD8wv0 %}
+{% youtube page.link %}

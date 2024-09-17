@@ -7,4 +7,4 @@ tags:
   - Escape Simulator
 ---
 
-{% youtube JtTH7K8NKAw %}
+{% youtube page.link %}

@@ -7,4 +7,4 @@ tags:
   - Software and Game Development
 ---
 
-{% youtube BLLR1CFHZIg %}
+{% youtube page.link %}
