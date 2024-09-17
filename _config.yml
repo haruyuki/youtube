@@ -1,0 +1,18 @@
+domain: haruyuki.moe
+url: https://haruyuki.moe
+baseurl: ""
+
+title: "@blumewmew"
+author: Haruyuki
+
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+
+color: "#13ccf9"
+
+rrss:
+  youtube: "https://www.youtube.com/@blumewmew"
+  twitch: "https://www.twitch.tv/blumewmew"
+  twitter: "https://x.com/blumewmew"
