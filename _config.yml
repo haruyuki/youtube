@@ -3,7 +3,9 @@ url: https://haruyuki.moe
 baseurl: ""
 
 title: "@blumewmew"
-author: Haruyuki
+tagline: "Haru's collection of Twitch stream VODS uploaded to YouTube"
+author: blumewmew
+logo: "/assets/images/logo.jpg"
 repository: haruyuki/youtube
 
 lang: en
