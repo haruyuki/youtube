@@ -3,7 +3,7 @@ url: https://haruyuki.moe
 baseurl: ""
 
 title: "@blumewmew"
-description: "Haru's collection of Twitch stream VODS uploaded to YouTube"
+description: "blumewmew's collection of Twitch stream VODS uploaded to YouTube"
 author: blumewmew
 logo: "/assets/images/logo.jpg"
 repository: haruyuki/youtube
@@ -16,7 +16,7 @@ plugins:
 
 pagination:
   enabled: true
-  per_page: 12
+  per_page: 18
   permalink: '/page/:num/'
   title: ' - page :num'
   sort_field: 'date'
