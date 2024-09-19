@@ -13,6 +13,7 @@ lang: en
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
+  - jekyll_sort_natural
 
 pagination:
   enabled: true

@@ -17,6 +17,7 @@ gem "wind-theme", "~> 0.1.3"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-paginate-v2", "~> 3.0.0"
+  gem "jekyll_sort_natural", "~> 1.0.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
