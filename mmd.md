@@ -1,5 +1,5 @@
 ---
-title: gallery
+title: mmd
 layout: gallery
 ---
 
