@@ -65,6 +65,7 @@ game:
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar61i.webp'
   - name: "Mahjong Soul"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rlr.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar15oe.webp'
   - name: "MapleStory"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co8dg8.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arjwy.webp'
