@@ -9,7 +9,7 @@ game:
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar5gt.webp'
   - name: "Art"
     url: "https://static-cdn.jtvnw.net/ttv-boxart/509660-90x120.jpg"
-    artwork: '../assets/images/art.png'
+    artwork: '/youtube/assets/images/art.png'
   - name: "Astatos"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4ba1.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1fps.webp'
@@ -55,7 +55,7 @@ game:
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar6vn.webp'
   - name: "Just Chatting"
     url: "https://static-cdn.jtvnw.net/ttv-boxart/509658-90x120.jpg"
-    artwork: '../assets/images/just-chatting.png'
+    artwork: '/youtube/assets/images/just-chatting.png'
   - name: "Kukoro: Stream Chat Games"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2sfs.png"
   - name: "League of Legends"
