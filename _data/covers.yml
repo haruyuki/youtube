@@ -1,18 +1,23 @@
 game:
   - name: "7 Years From Now"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co3kt8.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar94p.webp'
   - name: "Alien Swarm: Reactive Drop"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2394.png"
   - name: "Apex Legends"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1wzo.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar5gt.webp'
   - name: "Art"
     url: "https://static-cdn.jtvnw.net/ttv-boxart/509660-90x120.jpg"
+    artwork: '../assets/images/art.png'
   - name: "Astatos"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4ba1.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1fps.webp'
   - name: "Backpack Hero"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co7dfh.png"
   - name: "Box Cats"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co3mj0.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arxrr.webp'
   - name: "Cattails"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1jvp.png"
   - name: "Changed"
@@ -21,12 +26,15 @@ game:
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2j92.png"
   - name: "Doors: Paradox"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4wvf.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar2703.webp'
   - name: "Eraser"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4b9z.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1f0q.webp'
   - name: "Escape Simulator"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co49cc.png"
   - name: "Flying Neko Delivery"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4rql.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1nub.webp'
   - name: "For The King"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1hxc.png"
   - name: "Frenzy Retribution"
@@ -35,12 +43,16 @@ game:
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2m85.png"
   - name: "GOODBYE WORLD"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4um0.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1f9v.webp'
   - name: "Hatsune Miku: Project DIVA Mega Mix+"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4sos.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1nua.webp'
   - name: "Hyperdimension Neptunia Re;Birth1"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1sz1.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar6vn.webp'
   - name: "Just Chatting"
     url: "https://static-cdn.jtvnw.net/ttv-boxart/509658-90x120.jpg"
+    artwork: '../assets/images/just-chatting.png'
   - name: "Kukoro: Stream Chat Games"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2sfs.png"
   - name: "League of Legends"
@@ -49,12 +61,14 @@ game:
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rlr.png"
   - name: "MapleStory"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co8dg8.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arjwy.webp'
   - name: "Minecraft"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co8fu7.png"
   - name: "Nova Drift"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1vao.png"
   - name: "Okami HD"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co22s8.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar4nv.webp'
   - name: "OLDTV"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1wf3.png"
   - name: "Ori and the Will of the Wisps"
@@ -63,10 +77,15 @@ game:
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co8a4m.png"
   - name: "Path of Exile"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1n6w.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arjpc.webp'
   - name: "Peglin"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4oot.png"
   - name: "Plane Accident Demo"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co5khz.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1om2.webp'
+  - name: "Portal Dungeon"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co5mkq.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1n40.webp'
   - name: "REPRISE"
     url: "https://static-cdn.jtvnw.net/ttv-boxart/66082-90x120.jpg"
   - name: "Software and Game Development"
@@ -75,12 +94,17 @@ game:
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co67qm.png"
   - name: "Temtem"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1on0.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arrhn.webp'
   - name: "Tetris Effect: Connected"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co7kus.png"
   - name: "The one who pulls out the sword will be crowned king"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4iad.png"
   - name: "The Past Within"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co5k4n.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1y0p.webp'
+  - name: "TUNIC"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/td1t8kb33gyo8mvhl2pc.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arklp.webp'
   - name: "UNDECEMBER"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co3zhb.png"
   - name: "Unrailed!"
