@@ -22,6 +22,9 @@ game:
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1jvp.png"
   - name: "Changed"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4zje.png"
+  - name: "Cyber Hook"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2g4y.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arcpf.webp'
   - name: "Dark Deception"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2j92.png"
   - name: "Doors: Paradox"
@@ -57,6 +60,9 @@ game:
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2sfs.png"
   - name: "League of Legends"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co49wj.png"
+  - name: "Lost Ark"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4w4j.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar61i.webp'
   - name: "Mahjong Soul"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1rlr.png"
   - name: "MapleStory"
@@ -86,6 +92,9 @@ game:
   - name: "Portal Dungeon"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co5mkq.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1n40.webp'
+  - name: "Propagation VR"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2hec.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/aryon.webp'
   - name: "REPRISE"
     url: "https://static-cdn.jtvnw.net/ttv-boxart/66082-90x120.jpg"
   - name: "Software and Game Development"
