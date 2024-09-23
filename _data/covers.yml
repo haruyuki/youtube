@@ -15,9 +15,15 @@ game:
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1fps.webp'
   - name: "Backpack Hero"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co7dfh.png"
+  - name: "Big Time"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co77oe.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/scg9r3.webp'
   - name: "Box Cats Puzzle"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co3mj0.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arxrr.webp'
+  - name: "Call of Duty: Modern Warfare II"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4sbw.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1nk8.webp'
   - name: "Cattails"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1jvp.png"
   - name: "Changed"
@@ -47,9 +53,15 @@ game:
   - name: "GOODBYE WORLD"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4um0.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1f9v.webp'
+  - name: "Goose Goose Duck"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2uqr.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arkdc.webp'
   - name: "Hatsune Miku: Project DIVA Mega Mix+"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4sos.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1nua.webp'
+  - name: "Honkai: Star Rail"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co8dsp.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1e8k.webp'
   - name: "Hyperdimension Neptunia Re;Birth1"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co1sz1.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar6vn.webp'
@@ -115,6 +127,9 @@ game:
   - name: "The Past Within"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co5k4n.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1y0p.webp'
+  - name: "Throne of Lies: Medieval Politics"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2mzv.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arfnr.webp'
   - name: "Tower Escape"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co5nlp.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1obq.webp'
