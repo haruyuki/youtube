@@ -100,6 +100,9 @@ game:
     url: "https://static-cdn.jtvnw.net/ttv-boxart/66082-90x120.jpg"
   - name: "Software and Game Development"
     url: "https://static-cdn.jtvnw.net/ttv-boxart/1469308723-90x120.jpg"
+  - name: "Stacklands"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co4rpb.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1k4x.webp'
   - name: "Super Auto Pets"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co67qm.png"
   - name: "Temtem"
@@ -112,6 +115,12 @@ game:
   - name: "The Past Within"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co5k4n.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1y0p.webp'
+  - name: "Tower Escape"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co5nlp.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1obq.webp'
+  - name: "Trackmania"
+    url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co2fe9.png"
+    artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar8jb.webp'
   - name: "TUNIC"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/td1t8kb33gyo8mvhl2pc.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arklp.webp'
