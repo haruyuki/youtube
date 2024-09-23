@@ -15,7 +15,7 @@ game:
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/ar1fps.webp'
   - name: "Backpack Hero"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co7dfh.png"
-  - name: "Box Cats"
+  - name: "Box Cats Puzzle"
     url: "https://images.igdb.com/igdb/image/upload/t_cover_small/co3mj0.png"
     artwork: 'https://images.igdb.com/igdb/image/upload/t_720p/arxrr.webp'
   - name: "Cattails"
