@@ -1,0 +1,17 @@
+<svg width="264" height="374" viewBox="0 0 264 374" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect width="264" height="374" rx="10" fill="#2A2A2A"/>
+  
+  <!-- Game controller icon -->
+  <g transform="translate(62, 137)" fill="#888888">
+    <path d="M140 40C140 62.0914 108.66 80 70 80C31.3401 80 0 62.0914 0 40C0 17.9086 31.3401 0 70 0C108.66 0 140 17.9086 140 40Z" />
+    <path d="M125 50C125 61.0457 104.15 70 78.5 70C52.8502 70 32 61.0457 32 50C32 38.9543 52.8502 30 78.5 30C104.15 30 125 38.9543 125 50Z" fill="#444444"/>
+    <rect x="50" y="45" width="10" height="10" rx="2" fill="#CCCCCC"/>
+    <rect x="80" y="45" width="10" height="10" rx="2" fill="#CCCCCC"/>
+    <rect x="65" y="30" width="10" height="10" rx="2" fill="#CCCCCC"/>
+    <rect x="65" y="60" width="10" height="10" rx="2" fill="#CCCCCC"/>
+  </g>
+  
+  <!-- Text label -->
+  <text x="132" y="270" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#FFFFFF">Unknown Game</text>
+</svg>

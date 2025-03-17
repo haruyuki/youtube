@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added below */
+body {
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Scrollbar Styles */
+/* For WebKit browsers (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a855f7; /* Purple color matching the site theme */
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9333ea; /* Darker purple on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a855f7 #f1f1f1;
+}
+
+/* Dark mode scrollbar styles */
+.dark ::-webkit-scrollbar-track {
+  background: #1f2937; /* Dark background */
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #9333ea; /* Slightly darker purple for dark mode */
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #7e22ce; /* Even darker purple on hover in dark mode */
+}
+
+.dark * {
+  scrollbar-color: #9333ea #1f2937; /* Dark mode colors for Firefox */
+}

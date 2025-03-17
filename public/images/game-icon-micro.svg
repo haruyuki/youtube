@@ -1,0 +1,14 @@
+<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="17.5" cy="17.5" r="17.5" fill="#2A2A2A"/>
+  
+  <!-- Game controller icon -->
+  <g transform="translate(7, 10)" fill="#888888">
+    <path d="M21 6C21 9.31371 16.299 12 10.5 12C4.70101 12 0 9.31371 0 6C0 2.68629 4.70101 0 10.5 0C16.299 0 21 2.68629 21 6Z" />
+    <path d="M18.75 7.5C18.75 9.15685 15.6225 10.5 11.775 10.5C7.9275 10.5 4.8 9.15685 4.8 7.5C4.8 5.84315 7.9275 4.5 11.775 4.5C15.6225 4.5 18.75 5.84315 18.75 7.5Z" fill="#444444"/>
+    <rect x="7.5" y="6.75" width="1.5" height="1.5" rx="0.3" fill="#CCCCCC"/>
+    <rect x="12" y="6.75" width="1.5" height="1.5" rx="0.3" fill="#CCCCCC"/>
+    <rect x="9.75" y="4.5" width="1.5" height="1.5" rx="0.3" fill="#CCCCCC"/>
+    <rect x="9.75" y="9" width="1.5" height="1.5" rx="0.3" fill="#CCCCCC"/>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+{
+  "en": {
+    "site": {
+      "title": "Twitch VOD Archive"
+    },
+    "nav": {
+      "home": "Home",
+      "vods": "VODs"
+    },
+    "home": {
+      "title": "Twitch VOD Archive",
+      "welcome": "Welcome to my personal archive of Twitch stream VODs. Browse through past streams, search by game or tags, and watch content you might have missed.",
+      "howToUseTitle": "How to Use This Site",
+      "howToUseDesc": "You can browse all VODs on the VODs page, or use the search and filter options to find specific content:",
+      "searchByTitle": "Search by title or game name using the search bar",
+      "filterByGame": "Filter by game to see all VODs of a specific game",
+      "filterByTags": "Filter by tags to find content with specific themes or activities",
+      "contactTitle": "Contact",
+      "contactDesc": "If you have any questions or suggestions about the VOD archive, feel free to reach out to me on Twitch or through any of my social media channels.",
+      "browseAllVods": "Browse All VODs",
+      "featuredGames": "Featured Games"
+    },
+    "vods": {
+      "searchFilterTitle": "Search & Filter",
+      "searchVods": "Search VODs",
+      "searchPlaceholder": "Search by title or game name...",
+      "filterByGame": "Filter by Game",
+      "showGames": "Show Games",
+      "hideGames": "Hide Games",
+      "clearAll": "Clear All",
+      "noVodsFound": "No VODs Found",
+      "tryAdjusting": "Try adjusting your search or filter criteria."
+    }
+  },
+  "zh-tw": {
+    "site": {
+      "title": "Twitch 影片庫"
+    },
+    "nav": {
+      "home": "首頁",
+      "vods": "影片"
+    },
+    "home": {
+      "title": "Twitch 影片庫",
+      "welcome": "歡迎來到我的 Twitch 直播影片庫。瀏覽過去的直播，按遊戲或標籤搜尋，觀看您可能錯過的內容。",
+      "howToUseTitle": "如何使用本站",
+      "howToUseDesc": "您可以在影片頁面瀏覽所有影片，或使用搜尋和過濾選項找到特定內容：",
+      "searchByTitle": "使用搜尋欄按標題或遊戲名稱搜尋",
+      "filterByGame": "按遊戲過濾以查看特定遊戲的所有影片",
+      "filterByTags": "按標籤過濾以找到具有特定主題或活動的內容",
+      "contactTitle": "聯繫方式",
+      "contactDesc": "如果您對影片庫有任何問題或建議，請通過 Twitch 或我的任何社交媒體渠道與我聯繫。",
+      "browseAllVods": "瀏覽所有影片",
+      "featuredGames": "精選遊戲"
+    },
+    "vods": {
+      "searchFilterTitle": "搜尋和過濾",
+      "searchVods": "搜尋影片",
+      "searchPlaceholder": "按標題或遊戲名稱搜尋...",
+      "filterByGame": "按遊戲過濾",
+      "showGames": "顯示遊戲",
+      "hideGames": "隱藏遊戲",
+      "clearAll": "清除全部",
+      "noVodsFound": "未找到影片",
+      "tryAdjusting": "嘗試調整您的搜尋或過濾條件。"
+    }
+  }
+}

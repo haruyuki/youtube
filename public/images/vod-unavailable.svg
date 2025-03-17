@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#2C2F33" />
+  
+  <!-- Diagonal stripes pattern -->
+  <pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(45)">
+    <rect width="20" height="20" fill="#2C2F33"/>
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#3A3D42" stroke-width="10"/>
+  </pattern>
+  <rect width="1280" height="720" fill="url(#diagonalHatch)" opacity="0.5"/>
+  
+  <!-- Improved layout for thumbnails -->
+  <!-- Larger content container that fills more of the thumbnail space -->
+  <rect x="240" y="160" width="800" height="400" rx="15" ry="15" fill="#23272A" opacity="0.9"/>
+  
+  <!-- Larger broken video icon -->
+  <g transform="translate(440, 200)" fill="#9146FF">
+    <path d="M200,0 C310.457,0 400,89.5431 400,200 C400,310.457 310.457,400 200,400 C89.5431,400 0,310.457 0,200 C0,89.5431 89.5431,0 200,0 Z M200,40 C111.634,40 40,111.634 40,200 C40,288.366 111.634,360 200,360 C288.366,360 360,288.366 360,200 C360,111.634 288.366,40 200,40 Z" fill-opacity="0.2"/>
+    <path d="M140,120 L280,120 L280,280 L140,280 L140,120 Z M180,160 L180,240 L250,200 L180,160 Z" fill-opacity="0.2"/>
+    <path d="M80,80 L320,320" stroke="#9146FF" stroke-width="20" stroke-linecap="round"/>
+    <path d="M320,80 L80,320" stroke="#9146FF" stroke-width="20" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Larger, more prominent text -->
+  <text x="640" y="480" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">VOD No Longer Available</text>
+  <text x="640" y="540" font-family="Arial, sans-serif" font-size="24" fill="#B9BBBE" text-anchor="middle">This stream recording has been lost to time</text>
+  
+  <!-- Additional visual elements to fill the space -->
+  <g opacity="0.1">
+    <path d="M100,620 L200,620" stroke="#9146FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1080,620 L1180,620" stroke="#9146FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M100,100 L200,100" stroke="#9146FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1080,100 L1180,100" stroke="#9146FF" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
