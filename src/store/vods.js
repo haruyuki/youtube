@@ -4,9 +4,10 @@ import { ref, computed } from 'vue'
 import { addOrUpdateGame, generateImageUrl } from './games.js'
 import { gamesData } from './games.js'
 import vodsDataRaw from '../data/vods.json'
+import { getAssetUrl } from '../utils/path'
 
 // Default values for fallbacks
-const DEFAULT_THUMBNAIL = '/images/default-thumbnail.svg' // Path to a default thumbnail image
+const DEFAULT_THUMBNAIL = getAssetUrl('/images/default-thumbnail.svg') // Path to a default thumbnail image
 const DEFAULT_GAME_NAME = 'Unknown Game'
 import { DEFAULT_GAME_IMAGE } from './games' // Import from games.js instead of redefining
 
@@ -17,9 +18,9 @@ const vodsData = ref(vodsDataRaw);
 function getGameByName(gameName) {
   // Import TWITCH_CATEGORIES from games.js
   const TWITCH_CATEGORIES = {
-    'Art': '/images/twitch-categories/art.svg',
-    'Just Chatting': '/images/twitch-categories/just-chatting.svg',
-    'Software and Game Development': '/images/twitch-categories/software-development.svg'
+    'Art': getAssetUrl('/images/twitch-categories/art.svg'),
+    'Just Chatting': getAssetUrl('/images/twitch-categories/just-chatting.svg'),
+    'Software and Game Development': getAssetUrl('/images/twitch-categories/software-development.svg')
   };
   
   // Check if this is a Twitch category
@@ -56,7 +57,7 @@ const vodsWithGameData = computed(() => {
   return vodsData.value.map(vod => {
     // Get thumbnail URL from YouTube video ID or use unavailable image for null URLs
     const videoId = extractYoutubeVideoId(vod.youtubeUrl);
-    const thumbnailUrl = vod.youtubeUrl === null ? '/images/vod-unavailable.svg' : 
+    const thumbnailUrl = vod.youtubeUrl === null ? getAssetUrl('/images/vod-unavailable.svg') : 
                          (videoId ? generateYoutubeThumbnailUrl(videoId) : DEFAULT_THUMBNAIL);
     
     // Get game data from games store using the game name

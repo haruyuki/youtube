@@ -2,6 +2,7 @@
 
 import { ref, computed } from 'vue'
 import gamesDataRaw from '../data/games.json'
+import { getAssetUrl } from '../utils/path'
 
 // IGDB image size constants
 const IMAGE_SIZES = {
@@ -12,19 +13,19 @@ const IMAGE_SIZES = {
 
 // Default images for games not in the database
 const DEFAULT_GAME_IMAGES = {
-  [IMAGE_SIZES.COVER_BIG]: '/images/game-icon-cover.svg',
-  [IMAGE_SIZES.THUMB]: '/images/game-icon-thumb.svg',
-  [IMAGE_SIZES.MICRO]: '/images/game-icon-micro.svg'
+  [IMAGE_SIZES.COVER_BIG]: getAssetUrl('/images/game-icon-cover.svg'),
+  [IMAGE_SIZES.THUMB]: getAssetUrl('/images/game-icon-thumb.svg'),
+  [IMAGE_SIZES.MICRO]: getAssetUrl('/images/game-icon-micro.svg')
 }
 
 // Default game image for direct use
-const DEFAULT_GAME_IMAGE = '/images/game-icon-cover.svg'
+const DEFAULT_GAME_IMAGE = getAssetUrl('/images/game-icon-cover.svg')
 
 // Twitch-specific categories that don't have IGDB hashes
 const TWITCH_CATEGORIES = {
-  'Art': '/images/twitch-categories/art.svg',
-  'Just Chatting': '/images/twitch-categories/just-chatting.svg',
-  'Software and Game Development': '/images/twitch-categories/software-development.svg'
+  'Art': getAssetUrl('/images/twitch-categories/art.svg'),
+  'Just Chatting': getAssetUrl('/images/twitch-categories/just-chatting.svg'),
+  'Software and Game Development': getAssetUrl('/images/twitch-categories/software-development.svg')
 }
 
 // Game dictionary data structure

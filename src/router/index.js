@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import { getBaseUrl } from '../utils/path'
 
 const routes = [
   {
@@ -15,7 +16,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(getBaseUrl()),
   routes
 })
 
