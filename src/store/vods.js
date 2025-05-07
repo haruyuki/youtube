@@ -11,8 +11,8 @@ const DEFAULT_THUMBNAIL = getAssetUrl('/images/default-thumbnail.svg') // Path t
 const DEFAULT_GAME_NAME = 'Unknown Game'
 import { DEFAULT_GAME_IMAGE } from './games' // Import from games.js instead of redefining
 
-// Initialize VOD data from the imported JSON file
-const vodsData = ref(vodsDataRaw);
+// Initialize VOD data from the imported JSON file, assigning runtime IDs
+const vodsData = ref(vodsDataRaw.map((vod, index) => ({ ...vod, id: index + 1 })));
 
 // Helper function to get game data directly from gamesData
 function getGameByName(gameName) {
