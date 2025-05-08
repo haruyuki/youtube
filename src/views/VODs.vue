@@ -81,9 +81,9 @@
         </div>
       </div>
       
-      <!-- VODs List -->
+      <!-- VODs List & Pagination -->
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-cols-max">
-        <div v-for="vod in filteredVODs" :key="vod.id" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col w-auto">
+        <div v-for="vod in paginatedVODs" :key="vod.id" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col w-auto">
           <!-- VOD Thumbnail -->
           <div class="relative w-full">
             <a :href="vod.youtubeUrl" target="_blank" rel="noopener noreferrer" class="block">
@@ -121,6 +121,29 @@
         </div>
       </div>
       
+      <!-- Pagination Controls -->
+      <div v-if="totalPages > 1" class="mt-8 flex justify-center items-center space-x-2">
+        <button 
+          @click="prevPage"
+          :disabled="currentPage === 1"
+          class="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition duration-150"
+        >
+          {{ t('vods.pagination.previous') }}
+        </button>
+        
+        <span class="text-gray-700 dark:text-gray-300">
+          {{ t('vods.pagination.page') }} {{ currentPage }} {{ t('vods.pagination.of') }} {{ totalPages }}
+        </span>
+        
+        <button 
+          @click="nextPage"
+          :disabled="currentPage === totalPages"
+          class="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition duration-150"
+        >
+          {{ t('vods.pagination.next') }}
+        </button>
+      </div>
+
       <!-- No Results Message -->
       <div v-if="filteredVODs.length === 0" class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 text-center">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -138,12 +161,23 @@ import {
   searchQuery, 
   selectedGames,
   uniqueGames, 
-  filteredVODs,
+  filteredVODs, // Keep for totalPages calculation
+  paginatedVODs, // Use for displaying VODs
+  currentPage,
+  itemsPerPage,
+  nextPage,
+  prevPage,
+  goToPage, // Optional: if you want to implement direct page jumps
   vodsData
 } from '../store/vods';
 import { getGameByName } from '../store/vods';
 import { computed, ref } from 'vue';
 import { t } from '../store/language';
+
+// Computed property for total pages
+const totalPages = computed(() => {
+  return Math.ceil(filteredVODs.value.length / itemsPerPage.value);
+});
 
 // Toggle state for game filter dropdown
 const isGameFilterOpen = ref(false);

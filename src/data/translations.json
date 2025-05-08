@@ -29,7 +29,13 @@
       "hideGames": "Hide Games",
       "clearAll": "Clear All",
       "noVodsFound": "No VODs Found",
-      "tryAdjusting": "Try adjusting your search or filter criteria."
+      "tryAdjusting": "Try adjusting your search or filter criteria.",
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "page": "Page",
+        "of": "of"
+      }
     }
   },
   "zh-tw": {
@@ -62,7 +68,13 @@
       "hideGames": "隱藏遊戲",
       "clearAll": "清除全部",
       "noVodsFound": "未找到影片",
-      "tryAdjusting": "嘗試調整您的搜尋或過濾條件。"
+      "tryAdjusting": "嘗試調整您的搜尋或過濾條件。",
+      "pagination": {
+        "previous": "上一頁",
+        "next": "下一頁",
+        "page": "第",
+        "of": "頁，共"
+      }
     }
   }
 }

@@ -73,9 +73,11 @@ const vodsWithGameData = computed(() => {
   });
 });
 
-// Search and filter state
+// Search, filter, and pagination state
 const searchQuery = ref('');
 const selectedGames = ref([]);
+const currentPage = ref(1);
+const itemsPerPage = ref(16); // Display 16 VODs per page
 
 // For backward compatibility with Home.vue
 const selectedGame = computed({
@@ -130,6 +132,32 @@ const filteredVODs = computed(() => {
     return matchesSearch && matchesGame;
   });
 });
+
+// Paginated VODs
+const paginatedVODs = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage.value;
+  const end = start + itemsPerPage.value;
+  return filteredVODs.value.slice(start, end);
+});
+
+// Pagination functions
+function nextPage() {
+  if (currentPage.value * itemsPerPage.value < filteredVODs.value.length) {
+    currentPage.value++;
+  }
+}
+
+function prevPage() {
+  if (currentPage.value > 1) {
+    currentPage.value--;
+  }
+}
+
+function goToPage(page) {
+  if (page >= 1 && page <= Math.ceil(filteredVODs.value.length / itemsPerPage.value)) {
+    currentPage.value = page;
+  }
+}
 
 // Function to add a new VOD
 async function addVOD(vod) {
@@ -214,6 +242,12 @@ export {
   selectedGames,
   uniqueGames,
   filteredVODs,
+  paginatedVODs, // Export for pagination
+  currentPage, // Export for pagination
+  itemsPerPage, // Export for pagination
+  nextPage, // Export for pagination
+  prevPage, // Export for pagination
+  goToPage, // Export for pagination
   addVOD,
   updateVOD,
   extractYoutubeVideoId,
