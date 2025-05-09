@@ -14,7 +14,7 @@
   <rect x="240" y="160" width="800" height="400" rx="15" ry="15" fill="#23272A" opacity="0.9"/>
   
   <!-- Larger broken video icon -->
-  <g transform="translate(440, 200)" fill="#9146FF">
+  <g transform="translate(440, 160)" fill="#9146FF">
     <path d="M200,0 C310.457,0 400,89.5431 400,200 C400,310.457 310.457,400 200,400 C89.5431,400 0,310.457 0,200 C0,89.5431 89.5431,0 200,0 Z M200,40 C111.634,40 40,111.634 40,200 C40,288.366 111.634,360 200,360 C288.366,360 360,288.366 360,200 C360,111.634 288.366,40 200,40 Z" fill-opacity="0.2"/>
     <path d="M140,120 L280,120 L280,280 L140,280 L140,120 Z M180,160 L180,240 L250,200 L180,160 Z" fill-opacity="0.2"/>
     <path d="M80,80 L320,320" stroke="#9146FF" stroke-width="20" stroke-linecap="round"/>
